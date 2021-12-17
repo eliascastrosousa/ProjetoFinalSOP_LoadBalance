@@ -42,7 +42,7 @@ O projeto será uma aplicação Load Balance, Teremos 5 Maquinas para fazer toda
 
 3. **Maquina Desenvolvedor**
     Hostname: dev
-    IPv4: 192.168.0.104
+    IPv4: 192.168.0.105
     FQDN: dev.projeto.br
     Usuario: sysadmin
     Senha: sysadmin
@@ -57,22 +57,15 @@ O projeto será uma aplicação Load Balance, Teremos 5 Maquinas para fazer toda
     Senha: sysadmin
     Senha Root: 5y54dm1n
     <br> 
+ 
 
+## Comandos Utilizados no projeto
 
-
-
-
-
-
-
-
-
-
-
-
-Em construção...
-
-
+**su -** : Entrar como Root <br>
+**ip a** : mverificar as interfaces de ip da maquina
+**passwd**: mudar senha do usuario logado
+**ss -nltp**: verificar se o serviço ssh existe na maquina
+**system ctl start sshd**: 
 
 
 
