@@ -5,17 +5,71 @@ O projeto será uma aplicação Load Balance, Teremos 5 Maquinas para fazer toda
 
 ![Alt ou título da imagem](/2021-12-16%2019_33_21-Calculadora.png)
 
-###As Maquinas
+### 1. Maquinas
 
 1. **Maquina Gateway**
    Está Maquina ficará responsavel por compartilhar internet para as outras Web01 e Web02
-2. **Maquina Web01**
-   Será o servidor usado para 
-3. 
-4. **Maquina Web02**
-5. **Maquina de Operação**
-   Esta maquina será usada para manusear todas as outras 
+2. **Maquina Web01 e Web02** 
+    Responsaveis por balancear os acessos ao site. 
 
+3. **Maquina de Operacao**
+   Esta maquina será usada para manusear todas as outras 3 anteriores, pois serão instaladas em modo grafico e serão somente acessadas via ssh. 
+
+4. **Maquina Desenvolvedor**
+    Ficará responsavel por toda a parte de desenvolvimento 
+
+### 2. Configurações da maquina e de rede
+
+**Nesta parte lidaremos as configurações das maquinas no virtual box.**
+
+1. **Maquina Gateway**
+    Hostname: gateway
+    IPv4: 192.168.0.101
+    FQDN: gateway.projeto.br
+    Usuario: sysadmin
+    Senha: sysadmin
+    Senha Root: 5y54dm1n
+    <br>
+   
+2. **Maquina Web01 e Web02** 
+    Hostname: web01 e web02
+    IPv4: 192.168.0.102 e 192.168.0.103
+    FQDN: web01.projeto.br e web02.projeto.br
+    Usuario: sysadmin
+    Senha: sysadmin
+    Senha Root: 5y54dm1n
+    <br>
+
+
+3. **Maquina de Operacao**
+    Hostname: operacao
+    IPv4: 192.168.0.151
+    FQDN: operacao.projeto.br
+    Usuario: sysadmin
+    Senha: sysadmin
+    Senha Root: 5y54dm1n
+    <br> 
+
+4. **Maquina Desenvolvedor**
+    Hostname: dev
+    IPv4: 192.168.0.105
+    FQDN: dev.projeto.br
+    Usuario: sysadmin
+    Senha: sysadmin
+    Senha Root: 5y54dm1n
+    <br>
+
+
+
+
+
+
+
+
+
+
+
+Em construção...
 
 
 
