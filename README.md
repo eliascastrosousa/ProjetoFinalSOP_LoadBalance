@@ -23,49 +23,75 @@ O projeto será uma aplicação Load Balance, Teremos 5 Maquinas para fazer toda
 **Nesta parte lidaremos as configurações das maquinas no virtual box.**
 
 1. **Maquina Gateway**
-    Hostname: gateway
-    IPv4: 192.168.0.101
-    FQDN: gateway.projeto.br
-    Usuario: sysadmin
-    Senha: sysadmin
-    Senha Root: 5y54dm1n
+    * Hostname: gateway
+    * IPv4: 192.168.0.101 
+    * FQDN: gateway.projeto.br
+    * Usuario: sysadmin
+    * Senha: sysadmin 
+    * Senha Root: 5y54dm1n 
     <br>
    
 2. **Maquina Web01 e Web02** 
-    Hostname: web01 e web02
-    IPv4: 192.168.0.102 e 192.168.0.103
-    FQDN: web01.projeto.br e web02.projeto.br
-    Usuario: sysadmin
-    Senha: sysadmin
-    Senha Root: 5y54dm1n
+    * Hostname: web01 e web02 
+    * IPv4: 192.168.0.102 e 192.168.0.103
+    * FQDN: web01.projeto.br e web02.projeto.br
+    * Usuario: sysadmin 
+    * Senha: sysadmin 
+    * Senha Root: 5y54dm1n 
     <br>
 
 3. **Maquina Desenvolvedor**
-    Hostname: dev
-    IPv4: 192.168.0.105
-    FQDN: dev.projeto.br
-    Usuario: sysadmin
-    Senha: sysadmin
-    Senha Root: 5y54dm1n
+    * Hostname: dev
+    * IPv4: 192.168.0.105
+    * FQDN: dev.projeto.br
+    * Usuario: sysadmin
+    * Senha: sysadmin
+    * Senha Root: 5y54dm1n
     <br>
 
 4. **Maquina de Operacao**
-    Hostname: operacao
-    IPv4: 192.168.0.151
-    FQDN: operacao.projeto.br
-    Usuario: sysadmin
-    Senha: sysadmin
-    Senha Root: 5y54dm1n
+    * Hostname: operacao
+    * IPv4: 192.168.0.151
+    * FQDN: operacao.projeto.br
+    * Usuario: sysadmin
+    * Senha: sysadmin
+    * Senha Root: 5y54dm1n
     <br> 
  
 
 ## Comandos Utilizados no projeto
 
-**su -** : Entrar como Root <br>
+**su -** : Entrar como Root
 **ip a** : mverificar as interfaces de ip da maquina
 **passwd**: mudar senha do usuario logado
 **ss -nltp**: verificar se o serviço ssh existe na maquina
-**system ctl start sshd**: 
+**system ctl start sshd**:  inicia o serviço de ssh
+**system ctl status sshd**: mostra os status do serviço
+**system ctl status sshd**: para o serviço ssh
+**poweroff**: desliga a maquina
+**apt update**: atualiza a lista de pacotes
+**dpkg -l**: mostra os programas instalados
+**git clone**: clonar um repositorio no github
+    
+
+## Editor Vim
+
+O Editor vim é um editor de texto poderoso e muito utilizado no ambiente linux. 
+Seus comandos mais importantes são: 
+
+    :set nu = enumera as linhas do arquivo
+    tecla A = ativa o modo de edição
+    tecla esc = sai do modo de edição 
+    tecla Y = entra no modo copiar, digitando o n. qtd de linhas a copiar, depois usar y pra terminar o modulo. 
+    tecla p = colar o que esta copiado
+    tecla z = semelhante ao ctrl+Z , voltar
+    :w = salva o arquivo 
+    :q = sai do arquivo 
+    :wq = Salva e sai do arquivo
+
+
+
+
 
 
 
