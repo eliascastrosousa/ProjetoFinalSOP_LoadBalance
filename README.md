@@ -40,8 +40,16 @@ O projeto será uma aplicação Load Balance, Teremos 5 Maquinas para fazer toda
     Senha Root: 5y54dm1n
     <br>
 
+3. **Maquina Desenvolvedor**
+    Hostname: dev
+    IPv4: 192.168.0.104
+    FQDN: dev.projeto.br
+    Usuario: sysadmin
+    Senha: sysadmin
+    Senha Root: 5y54dm1n
+    <br>
 
-3. **Maquina de Operacao**
+4. **Maquina de Operacao**
     Hostname: operacao
     IPv4: 192.168.0.151
     FQDN: operacao.projeto.br
@@ -50,14 +58,7 @@ O projeto será uma aplicação Load Balance, Teremos 5 Maquinas para fazer toda
     Senha Root: 5y54dm1n
     <br> 
 
-4. **Maquina Desenvolvedor**
-    Hostname: dev
-    IPv4: 192.168.0.105
-    FQDN: dev.projeto.br
-    Usuario: sysadmin
-    Senha: sysadmin
-    Senha Root: 5y54dm1n
-    <br>
+
 
 
 
