@@ -61,17 +61,17 @@ O projeto será uma aplicação Load Balance, Teremos 5 Maquinas para fazer toda
 
 ## Comandos Utilizados no projeto
 
-**su -** : Entrar como Root
-**ip a** : mverificar as interfaces de ip da maquina
-**passwd**: mudar senha do usuario logado
-**ss -nltp**: verificar se o serviço ssh existe na maquina
-**system ctl start sshd**:  inicia o serviço de ssh
-**system ctl status sshd**: mostra os status do serviço
-**system ctl status sshd**: para o serviço ssh
-**poweroff**: desliga a maquina
-**apt update**: atualiza a lista de pacotes
-**dpkg -l**: mostra os programas instalados
-**git clone**: clonar um repositorio no github
+    **su -** : Entrar como Root
+    **ip a** : mverificar as interfaces de ip da maquina
+    **passwd**: mudar senha do usuario logado
+    **ss -nltp**: verificar se o serviço ssh existe na maquina
+    **system ctl start sshd**:  inicia o serviço de ssh
+    **system ctl status sshd**: mostra os status do serviço
+    **system ctl status sshd**: para o serviço ssh
+    **poweroff**: desliga a maquina
+    **apt update**: atualiza a lista de pacotes
+    **dpkg -l**: mostra os programas instalados
+    **git clone**: clonar um repositorio no github
     
 
 ## Editor Vim
